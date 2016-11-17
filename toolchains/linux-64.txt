@@ -1,0 +1,15 @@
+[host_machine]
+system = 'linux'
+cpu_family = 'x86_64'
+cpu = 'x86_64'
+endian = 'little'
+
+[binaries]
+c = 'f:/cygwin64/bin/x86_64-pc-linux-gnu-gcc'
+cpp = 'f:/cygwin64/bin/x86_64-pc-linux-gnu-g++'
+ar = 'f:/cygwin64/bin/x86_64-pc-linux-gnu-ar'
+strip = 'f:/cygwin64/bin/x86_64-pc-linux-gnu-strip'
+pkgconfig = 'f:/cygwin64/bin/x86_64-pc-linux-gnu-pkg-config'
+
+[properties]
+root = 'f:/cygwin64/usr/x86_64-pc-linux-gnu'

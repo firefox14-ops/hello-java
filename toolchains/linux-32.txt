@@ -1,0 +1,15 @@
+[host_machine]
+system = 'linux'
+cpu_family = 'x86'
+cpu = 'i686'
+endian = 'little'
+
+[binaries]
+c = 'f:/cygwin64/bin/i686-pc-linux-gnu-gcc'
+cpp = 'f:/cygwin64/bin/i686-pc-linux-gnu-g++'
+ar = 'f:/cygwin64/bin/i686-pc-linux-gnu-ar'
+strip = 'f:/cygwin64/bin/i686-pc-linux-gnu-strip'
+pkgconfig = 'f:/cygwin64/bin/i686-pc-linux-gnu-pkg-config'
+
+[properties]
+root = 'f:/cygwin64/usr/i686-pc-linux-gnu'

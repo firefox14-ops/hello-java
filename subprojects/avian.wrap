@@ -1,0 +1,4 @@
+[wrap-git]
+directory=avian
+url=https://github.com/msink/avian.git
+revision=head
