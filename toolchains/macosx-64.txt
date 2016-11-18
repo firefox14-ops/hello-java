@@ -1,15 +1,15 @@
 [host_machine]
-system = 'osx'
+system     = 'osx'
 cpu_family = 'x86_64'
-cpu = 'x86_64'
-endian = 'little'
+cpu        = 'x86_64'
+endian     = 'little'
 
 [binaries]
-c = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-clang'
-cpp = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-clang++'
-ar = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-ar'
-strip = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-strip'
-pkgconfig = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-pkg-config'
+c          = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-clang'
+cpp        = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-clang++'
+ar         = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-ar'
+strip      = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-strip'
+pkgconfig  = 'f:/cygwin64/opt/osxcross/target/bin/x86_64-apple-darwin14-pkg-config'
 
 [properties]
-root = 'f:/cygwin64/opt/osxcross/target/SDK/MacOSX10.10.sdk'
+root       = 'f:/cygwin64/opt/osxcross/target/SDK/MacOSX10.10.sdk'

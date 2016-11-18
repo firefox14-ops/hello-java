@@ -1,15 +1,15 @@
 [host_machine]
-system = 'windows'
+system     = 'windows'
 cpu_family = 'x86'
-cpu = 'i686'
-endian = 'little'
+cpu        = 'i686'
+endian     = 'little'
 
 [binaries]
-c = 'f:/cygwin64/bin/i686-w64-mingw32-gcc'
-cpp = 'f:/cygwin64/bin/i686-w64-mingw32-g++'
-ar = 'f:/cygwin64/bin/i686-w64-mingw32-ar'
-strip = 'f:/cygwin64/bin/i686-w64-mingw32-strip'
-pkgconfig = 'f:/cygwin64/bin/i686-w64-mingw32-pkg-config'
+c          = 'f:/msys64/mingw32/bin/gcc'
+cpp        = 'f:/msys64/mingw32/bin/g++'
+ar         = 'f:/msys64/mingw32/bin/ar'
+strip      = 'f:/msys64/mingw32/bin/strip'
+pkgconfig  = 'f:/msys64/mingw32/bin/pkg-config'
 
 [properties]
-root = 'f:/cygwin64/usr/i686-w64-mingw32'
+root       = 'f:/msys64/mingw32'
