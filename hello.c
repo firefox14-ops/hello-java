@@ -6,6 +6,6 @@ void __cxa_pure_virtual()
 
 int main()
 {
-	printf("Hello world!");
+	printf("Hello C world!");
 	return 0;
 }
